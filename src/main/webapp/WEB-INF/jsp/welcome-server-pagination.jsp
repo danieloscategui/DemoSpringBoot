@@ -17,7 +17,7 @@
     <h2>Basic CRUD Application</h2>
     <p>Click the buttons on datagrid toolbar to do crud actions.</p>
     
-    <table id="dg" title="My Users" class="easyui-datagrid" style="width:700px;height:455px"
+    <table id="dg" title="My Users" class="easyui-datagrid" style="width:800px;height:455px"
             url="employee/api/page"
             method="get"
             loadMsg="Procesando, espere por favor ..."

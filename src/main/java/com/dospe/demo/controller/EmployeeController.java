@@ -60,8 +60,8 @@ public class EmployeeController {
 		
 		Page<Employee> employeePage = employeeService.findAll(page, rows);
 		
-		logger.info("total pages: " + employeePage.getTotalPages());
-		result.put("total", employeePage.getTotalPages());
+		logger.info("total elements: " + employeePage.getTotalElements());
+		result.put("total", employeePage.getTotalElements());
 		result.put("rows", employeePage.getContent().stream()
 				.map(employee -> convertToDTO(employee))
 				.collect(Collectors.toList()));
