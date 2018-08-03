@@ -8,7 +8,7 @@ public class IndexController {
 	
 	@GetMapping("/")
 	public String showWelcome() {
-		return "welcome";
+		return "welcome-server-pagination";
 	}
 	
 }
