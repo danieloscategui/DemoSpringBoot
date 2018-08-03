@@ -27,7 +27,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	@Transactional(readOnly=true)
 	public Page<Employee> findAll(int page, int size) {
-		return  employeeRepository.findAll(new PageRequest(page, size));
+		return  employeeRepository.findAll(new PageRequest(page-1, size));
 	}
 
 }

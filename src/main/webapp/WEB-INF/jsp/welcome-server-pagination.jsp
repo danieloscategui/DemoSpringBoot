@@ -23,7 +23,7 @@
             loadMsg="Procesando, espere por favor ..."
             toolbar="#toolbar" pagination="true" pageSize="10"
             rownumbers="true" fitColumns="true" singleSelect="true"
-            pagePosition="top">
+            pagePosition="bottom">
         <thead>
             <tr>
                 <th field="fullName" width="50">Full Name</th>
